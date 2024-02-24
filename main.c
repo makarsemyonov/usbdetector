@@ -48,6 +48,13 @@ int main(int argc, char* argv[]){
 
                 if (action && devname && strcmp(action, "add") == 0) {
                     fprintf(file, "%s - flash drive connected: %s\n", getCurrentDateTime(), devname);
+                    struct udev_list_entry *properties_list = udev_device_get_properties_list_entry(dev);
+                    struct udev_list_entry *entry;
+                    udev_list_entry_foreach(entry, properties_list) {
+                        const char *key = udev_list_entry_get_name(entry);
+                        const char *value = udev_list_entry_get_value(entry);
+                        fprintf(file, "  %s: %s\n", key, value);
+                    }
                     fflush(file);
                 }
                 else if (action && devname && strcmp(action, "remove") == 0) {
