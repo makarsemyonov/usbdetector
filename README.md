@@ -1,17 +1,27 @@
-# usbdetector
-usbdetector - program for tracking and logging connected USB devices for Linux OS
-Release version: [0.1]
+# USBDETECTOR
+## Program for tracking and logging connected USB devices for Linux OS
 
-# Downloading and preparing
-```shell
+Release version: [0.1](https://github.com/GhostOfVitebsk/usbdetector)
+
+## Downloading and preparing
+```
 git clone https://github.com/GhostOfVitebsk/usbdetector
 cd usbdetector
 chmod +x usbdetector.bash
 ```
-## Using
-```shell
-./usbdetector
-```
-You need to enter the path where the log file will be created or it will be created by default in the program folder and will be named 'usb.log'.
 
-##
+## Using
+```
+./usbdetector.bash
+```
+You need to enter the path where the log file will be created or
+it will be created by default in the program folder and will be named 'usb.log'.
+
+## Releases 
+* Version 0.1:
+  
+  Simply tracks and create logs of connections and disconnections of usb devices
+
+
+### Developed by
+* Makar Semyonov: [telegram](https://t.me/makarsemyonov2), [github](https://github.com/GhostOfVitebsk)</li>
