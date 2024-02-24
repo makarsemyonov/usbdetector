@@ -1,7 +1,7 @@
 # USBDETECTOR
 ## Program for tracking and logging connected USB devices for Linux OS
 
-Release version: [0.1](https://github.com/GhostOfVitebsk/usbdetector)
+Release version: [0.2](https://github.com/GhostOfVitebsk/usbdetector)
 
 ## Downloading and preparing
 ```
@@ -18,7 +18,10 @@ You need to enter the path where the log file will be created or
 it will be created by default in the program folder and will be named 'usb.log'.
 
 ## Releases 
-* Version 0.1:
+* version 0.2:
+
+  tracks and create logs of connections, disconnections and information about usb devices 
+* version 0.1:
   
   Simply tracks and create logs of connections and disconnections of usb devices
 
