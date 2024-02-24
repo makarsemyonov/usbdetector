@@ -1,5 +1,5 @@
 # USBDETECTOR
-## Program for tracking and logging connected USB devices for Linux OS
+## Program for tracking and logging connected USB flash devices for Linux OS
 
 Release version: [0.2](https://github.com/GhostOfVitebsk/usbdetector)
 
