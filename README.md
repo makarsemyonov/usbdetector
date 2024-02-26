@@ -10,7 +10,7 @@ cd usbdetector
 chmod +x usbdetector.bash
 ```
 
-## Using
+## Usage
 ```
 ./usbdetector.bash
 ```
